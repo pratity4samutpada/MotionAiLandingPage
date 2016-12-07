@@ -1,0 +1,13 @@
+.logobar{
+    height:80px;
+}
+
+.imagecontainer{
+    text-align: center;
+    margin-top:10px;
+}
+
+img {
+    height: 60px;
+    width:60px;
+}
