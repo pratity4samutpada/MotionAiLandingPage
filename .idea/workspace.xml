@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0cecdee4-0b17-4bf8-9d68-563df9c52187" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/MotionAi.css" afterPath="$PROJECT_DIR$/css/MotionAi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
     </list>
     <ignored path="MotionAiLandingPage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -644,7 +642,7 @@
       <updated>1481097001632</updated>
       <workItem from="1481097002838" duration="11000" />
       <workItem from="1481097032991" duration="3736000" />
-      <workItem from="1481102006947" duration="4456000" />
+      <workItem from="1481102006947" duration="5077000" />
     </task>
     <task id="LOCAL-00001" summary="organized project files">
       <created>1481098225977</created>
@@ -667,11 +665,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481102045420</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fiddled with the navbar">
+      <created>1481106500534</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1481106500534</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8203000" />
+    <option name="totallyTimeSpent" value="8824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
