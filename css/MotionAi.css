@@ -24,6 +24,34 @@ img {
     margin-right:15px;
 }
 
+.nav li.navbutton a:hover{
+    background-color: deepskyblue;
+    opacity: .7;
+    -webkit-transition: background 1s;
+}
+
+.navbar-hamburger {
+    display: none;
+    width: 100px;
+    border: none;
+}
+
+
+.btn:hover{
+    background-color: deepskyblue;
+    opacity: .7;
+    -webkit-transition: background 1s;
+}
+
+@media screen and (max-width:700px){
+    .nav-pills .navbutton{
+        display:none;
+    }
+    .navbar-hamburger{
+        display:block;
+    }
+}
+
 .promo {
     height: 470px;
     background-image:
