@@ -24,6 +24,10 @@ img {
     margin-right:15px;
 }
 
+.nav li.navbutton a {
+    font-family: 'Reem Kufi', sans-serif;
+    width: 140px;
+}
 .nav li.navbutton a:hover{
     background-color: deepskyblue;
     opacity: .7;
@@ -55,9 +59,32 @@ img {
 .promo {
     height: 470px;
     background-image:
-            linear-gradient(rgba(255,255,255, 1), rgba(255,255,255,0)),
+            linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.9)),
+            linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0)),
             url(../images/backgroundrobots.png);
     background-size: cover;
     background-repeat: no-repeat;
 
 }
+
+.productinfo{
+    margin-top:10px;
+}
+
+.headingone {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #337ab7;
+}
+
+p {
+    text-align:center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #337ab7;
+}
+
+
+
+
