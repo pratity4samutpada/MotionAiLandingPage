@@ -7,7 +7,7 @@
     margin-top:10px;
 }
 
-img {
+.logobar .imagecontainer img {
     height:60px;
     width:60px;
 }
@@ -81,21 +81,6 @@ img {
     background-color: lightblue;
 }
 
-@media screen and (max-width:700px){
-    .nav-pills .navbutton{
-        display:none;
-    }
-    .navbar-hamburger{
-        display:block;
-    }
-    img {
-        height:30px;
-        width:30px;
-    }
-    .logobar{
-        height:50px;
-    }
-}
 
 .promo {
     height: 470px;
@@ -107,89 +92,91 @@ img {
 
 }
 
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+.carousel{
+    position:relative;
+    top:40px;
+
+}
+.carousel-inner{
+    margin:auto;
+    width: 50%;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+
+.carousel-inner .item{
+    width:99%;
+
+    margin:0 auto;
+    margin-top:20px;
+    -webkit-box-shadow: 9px -9px 18px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px -9px 18px -8px rgba(0,0,0,0.75);
+    box-shadow: 9px -9px 18px -8px rgba(0,0,0,0.75);
 }
 
-/* Position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+
+
+.carousel-control{
+    opacity: 0;
+    display:none;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+.carousel-control:hover, .carousel-control:focus{
+    opacity:0;
+
 }
 
-/* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+.carousel-fade .carousel-inner .item {
+    transition-property: opacity;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+.item,
+.active.left,
+.active.right {
+    opacity: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-    cursor:pointer;
-    height: 13px;
-    width: 13px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+.active,
+.next.left,
+.prev.right {
+    opacity: 1;
 }
 
-.active, .dot:hover {
-    background-color: #717171;
+.next,
+.prev,
+.active.left,
+.active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
 }
 
-/* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 90%;
 }
 
-@-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
 
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+
+@media screen and (max-width:700px) {
+    .nav-pills .navbutton {
+        display: none;
+    }
+
+    .navbar-hamburger {
+        display: block;
+    }
+
+    .logobar .imagecontainer img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .logobar {
+        height: 50px;
+    }
+
+    .carousel-inner {
+        width: 100%;
+    }
 }
