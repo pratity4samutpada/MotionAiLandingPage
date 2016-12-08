@@ -121,32 +121,30 @@ body {
 }
 
 #box1 {
-    background-image: url('../images/slideshow1.png');
+    background-image: url('../images/slideshow2.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: green;
     left: -50%;
 }
 
 #box2 {
-    background-image: url('../images/slideshow1.png');
+    background-image: url('../images/tutorial1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #box3 {
-    background-image: url('../images/slideshow1.png');
+    background-image: url('../images/tutorial2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: red;
     left: 150%;
 }
 
 #box4 {
-    background-image: url('../images/slideshow1.png');
+    background-image: url('../images/tutorial3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: orange;
+    background-position: center;
     left: 150%;
 }
 
@@ -154,10 +152,17 @@ body {
     background-image: url('../images/slideshow1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: blue;
     left: 150%;
 }
 
+.btn.btn-lg.btn-info.slide{
+    vertical-align: bottom;
+    width: 80%;
+    white-space: normal;
+    background-color: lightblue;
+    opacity: .7;
+    color: #5e5e5e;
+}
 
 
 
@@ -178,5 +183,7 @@ body {
     .logobar {
         height: 50px;
     }
-
+    .promo{
+        display:none;
+    }
 }
