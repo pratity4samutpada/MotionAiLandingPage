@@ -123,65 +123,76 @@ p {
 .carousel{
     position:relative;
     top:40px;
-
+body {
+    padding: 0px;
 }
-.carousel-inner{
-    margin:auto;
+
+#slideshow {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
     width: 50%;
+    height: 350px;
+    line-height: 300px;
+    font-size: 50px;
+    text-align: center;
+    left: 50%;
+    top: 50px;
+    margin-left: -25%;
+    -webkit-box-shadow: 28px -27px 34px -16px rgba(97,206,214,1);
+    -moz-box-shadow: 28px -27px 34px -16px rgba(97,206,214,1);
+    box-shadow: 28px -27px 34px -16px rgba(97,206,214,1);
 }
 
-
-.carousel-inner .item{
-    width:99%;
-
-    margin:0 auto;
-    margin-top:20px;
-    -webkit-box-shadow: 9px -9px 18px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 9px -9px 18px -8px rgba(0,0,0,0.75);
-    box-shadow: 9px -9px 18px -8px rgba(0,0,0,0.75);
+#box1 {
+    background-image: url('../images/slideshow2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: -50%;
 }
 
-
-
-.carousel-control{
-    opacity: 0;
-    display:none;
+#box2 {
+    background-image: url('../images/tutorial1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.carousel-control:hover, .carousel-control:focus{
-    opacity:0;
-
+#box3 {
+    background-image: url('../images/tutorial2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 150%;
 }
 
-.carousel-fade .carousel-inner .item {
-    transition-property: opacity;
+#box4 {
+    background-image: url('../images/tutorial3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 150%;
 }
 
-.item,
-.active.left,
-.active.right {
-    opacity: 0;
+#box5 {
+    background-image: url('../images/slideshow1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 150%;
 }
 
-.active,
-.next.left,
-.prev.right {
-    opacity: 1;
-}
-
-.next,
-.prev,
-.active.left,
-.active.right {
-    left: 0;
-    transform: translate3d(0, 0, 0);
-}
-
-
-.carousel,
-.carousel-inner,
-.carousel-inner .item {
-    height: 90%;
+.btn.btn-lg.btn-info.slide{
+    vertical-align: bottom;
+    width: 80%;
+    white-space: normal;
+    background-color: lightblue;
+    opacity: .7;
+    color: #5e5e5e;
 }
 
 
@@ -203,8 +214,7 @@ p {
     .logobar {
         height: 50px;
     }
-
-    .carousel-inner {
-        width: 100%;
+    .promo{
+        display:none;
     }
 }
