@@ -19,3 +19,9 @@ $('.box').click(function() {
         }, 500);
     }
 });
+
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("[data-toggle='modal']").modal();
+    });
+});
