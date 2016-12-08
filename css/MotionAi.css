@@ -1,3 +1,21 @@
+.fixed-logo{
+    width: 10%;
+    position: relative;
+    bottom:0px;
+
+}
+
+.fixed-logo-container{
+    margin:0 auto;
+    text-align: center;
+    width:100%;
+    position: fixed;
+    bottom:0;
+    background-color:white;
+    height:55px;
+
+}
+
 .logobar{
     height:80px;
 }
@@ -113,7 +131,7 @@ body {
     font-size: 50px;
     text-align: center;
     left: 50%;
-    top: 70px;
+    top: 50px;
     margin-left: -25%;
     -webkit-box-shadow: 28px -27px 34px -16px rgba(97,206,214,1);
     -moz-box-shadow: 28px -27px 34px -16px rgba(97,206,214,1);
