@@ -55,7 +55,7 @@
     width:60px;
     padding-bottom:2px;
 }
-/**/
+
 .navbar-container{
     text-align:center;
     margin:0 auto;
@@ -83,7 +83,6 @@
     border: 1px solid lightblue;
 }
 
-
 .btn:hover{
     background-color: lightblue;
     opacity: .7;
@@ -92,6 +91,7 @@
 
 .dropdown {
     position: relative;
+    margin-top:10px;
 }
 
 .dropdown-content {
@@ -109,8 +109,6 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-
-
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
@@ -123,7 +121,6 @@
     background-color: lightblue;
 }
 
-
 .promo {
     height: 470px;
     background-image:
@@ -132,7 +129,6 @@
             url(../images/backgroundrobots.png);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 body {
@@ -293,17 +289,15 @@ display:inline-block;
 @media screen and (max-width:991px){
     .youandaicontainer{
         display:block;
-        margin:0 auto;
+        width: 100%
+    }
+    .youandaiwordscontainer{
+        margin: 0 auto;
     }
 
     .youandaiimagecontainer{
-        margin:0 auto;
+        margin: 0 auto;
     }
-}
-
-
-#showmenu{
-
 }
 
 .menu{
@@ -315,8 +309,7 @@ display:inline-block;
     background-image:url('../images/Flowchartimage.png');
     background-size:cover;
     background-repeat: no-repeat;
-    margin-bottom: 200px;
-
+    margin-bottom: 50px;
 }
 
 .bio-blurb{
@@ -328,13 +321,11 @@ display:inline-block;
     text-align: justify;
     padding:5px;
     font-family: 'Reem Kufi', sans-serif
-
 }
 
 .btn-video{
     background-color:#31b0d5;
     color:white;
-
 }
 
 .video{
@@ -342,7 +333,15 @@ display:inline-block;
     top:20px;
 }
 
-iframe{
-    border:5px solid #31b0d5;
+iframe {
+    border: 5px solid #31b0d5;
     border-radius: 25px;
+}
+
+.chatbot{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size:30px;
+    text-align:center;
+    margin-bottom:55px;
+    color:#337ab7;
 }
