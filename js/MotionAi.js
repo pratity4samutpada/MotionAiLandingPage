@@ -26,12 +26,10 @@ $('.box').click(function() {
 
 });
 
-$(document).ready(function(){
 
-    $("#myBtn").click(function(){
 
-        $("[data-toggle='modal']").modal();
-
+$(document).ready(function() {
+    $('#video-box').click(function() {
+        $('.video-container').slideToggle("fast");
     });
-
 });

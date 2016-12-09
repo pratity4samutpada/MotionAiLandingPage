@@ -235,18 +235,13 @@ body {
     }
 }
 
-
-
 .platform-container .col-md-4{
     z-index: 1;
     padding-top:10px;
     padding-bottom: 50px;
     font-family: 'PT Sans', sans-serif;
 
-
-
 }
-
 
 #platform-header{
     font-family: 'PT Sans', sans-serif;
@@ -296,4 +291,12 @@ display:inline-block;
         display:block;
         margin:0 auto;
     }
+}
+
+#video-box{
+    margin-bottom: 100px;
+}
+
+.video-container{
+    margin-bottom:100px;
 }
