@@ -1,14 +1,11 @@
 .fixed-logo{
-    width: 9%;
-    position: relative;
-    bottom:0px;
+    width:9%;
 }
 
 .fixed-logo-container{
-    margin:0 auto;
-    text-align: center;
+    text-align:center;
     width:100%;
-    position: fixed;
+    position:fixed;
     bottom:0;
     background-color:white;
     height:55px;
@@ -58,7 +55,7 @@
     width:60px;
     padding-bottom:2px;
 }
-
+/**/
 .navbar-container{
     text-align:center;
     margin:0 auto;
@@ -267,9 +264,36 @@ body {
 .headingone{
     font-family: 'Reem Kufi', sans-serif;
     font-size:30px;
+    display:block;
 }
 .youandai{
+    padding-top:50px;
     text-align:center;
-    height:2000px;
+    margin-bottom:55px;
+}
 
+.youandaicontainer{
+display:inline-block;
+    width:33%;
+}
+
+.youandaicontainer h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size:18px;
+}
+
+.youandaicontainer p{
+    color: #777;
+}
+
+.youandaicontainer img{
+    width:310px;
+    height:257px;
+}
+
+@media screen and (max-width:991px){
+    .youandaicontainer{
+        display:block;
+        margin:0 auto;
+    }
 }
