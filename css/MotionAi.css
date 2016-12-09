@@ -256,6 +256,10 @@ body {
     font-family: 'Reem Kufi', sans-serif;
 }
 
+.section-heading{
+    color:#337ab7;
+}
+
 .headingone{
     font-family: 'Reem Kufi', sans-serif;
     font-size:30px;
@@ -297,10 +301,43 @@ display:inline-block;
     }
 }
 
-#video-box{
-    margin-bottom: 100px;
+
+#showmenu{
+
+}
+
+.menu{
+    margin-bottom:500px;
 }
 
 .video-container{
-    margin-bottom:100px;
+    text-align:center;
+    background-image:url('../images/Flowchartimage.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+
+}
+
+.bio-blurb{
+    position: relative;
+    top:90px;
+    background-color:white;
+    border-radius: 25px;
+    border:5px solid #31b0d5;
+    text-align: justify;
+    padding:5px;
+    font-family: 'Reem Kufi', sans-serif
+
+}
+
+.btn-video{
+    background-color:#31b0d5;
+    color:white;
+
+}
+
+.video{
+    position: relative;
+    top:20px;
 }

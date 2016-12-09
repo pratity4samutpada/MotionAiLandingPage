@@ -29,7 +29,8 @@ $('.box').click(function() {
 
 
 $(document).ready(function() {
-    $('#video-box').click(function() {
-        $('.video-container').slideToggle("fast");
+    $('#showmenu').click(function() {
+        $('.menu').slideToggle("fast");
     });
 });
+
