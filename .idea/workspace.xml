@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0cecdee4-0b17-4bf8-9d68-563df9c52187" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/MotionAi.css" afterPath="$PROJECT_DIR$/css/MotionAi.css" />
     </list>
     <ignored path="MotionAiLandingPage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -50,8 +49,8 @@
       <file leaf-file-name="MotionAi.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/MotionAi.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+            <state relative-caret-position="118">
+              <caret line="307" column="33" selection-start-line="307" selection-start-column="33" selection-end-line="307" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -750,7 +749,7 @@
       <workItem from="1481097032991" duration="3736000" />
       <workItem from="1481102006947" duration="25000" />
       <workItem from="1481107101180" duration="205000" />
-      <workItem from="1481107456399" duration="60585000" />
+      <workItem from="1481107456399" duration="60891000" />
     </task>
     <task id="LOCAL-00001" summary="organized project files">
       <created>1481098225977</created>
@@ -843,11 +842,25 @@
       <option name="project" value="LOCAL" />
       <updated>1481320737465</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added new stripe from template. Fixed footer issue.">
+      <created>1481321276337</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1481321276337</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added new stripe from template. Fixed footer issue.">
+      <created>1481321529391</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1481321529391</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64562000" />
+    <option name="totallyTimeSpent" value="64868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1054,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        <state relative-caret-position="504">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1064,8 +1077,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/MotionAi.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
+        <state relative-caret-position="118">
+          <caret line="307" column="33" selection-start-line="307" selection-start-column="33" selection-end-line="307" selection-end-column="33" />
           <folding />
         </state>
       </provider>
