@@ -1,3 +1,29 @@
+
+
+
+
+.fixed-logo{
+    width: 9%;
+    position: relative;
+    bottom:0px;
+
+
+
+
+}
+
+.fixed-logo-container{
+    margin:0 auto;
+    text-align: center;
+    width:100%;
+    position: fixed;
+    bottom:0;
+    background-color:white;
+    height:55px;
+    z-index:10;
+
+}
+
 .logobar{
     height:80px;
 }
@@ -149,6 +175,7 @@ body {
     -webkit-box-shadow: 28px -27px 34px -16px rgba(97,206,214,1);
     -moz-box-shadow: 28px -27px 34px -16px rgba(97,206,214,1);
     box-shadow: 28px -27px 34px -16px rgba(97,206,214,1);
+    border-radius: 25px;
 }
 
 #box1 {
@@ -217,4 +244,25 @@ body {
     .promo{
         display:none;
     }
+}
+
+
+
+.platform-container .col-md-4{
+    z-index: 1;
+    padding-top:10px;
+    padding-bottom: 50px;
+    font-family: 'PT Sans', sans-serif;
+
+
+
+}
+
+.platform-container img{
+    border-radius: 50%;
+}
+
+#platform-header{
+    font-family: 'PT Sans', sans-serif;
+
 }
