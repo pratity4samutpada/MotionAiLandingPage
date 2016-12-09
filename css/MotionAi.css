@@ -104,6 +104,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     text-align: center;
+    z-index: 10;
 }
 
 .dropdown-content a {
@@ -205,9 +206,8 @@ body {
     vertical-align: bottom;
     width: 80%;
     white-space: normal;
-    background-color: lightblue;
-    opacity: .7;
-    color: #5e5e5e;
+    color: white;
+    border-radius: 25px;
 }
 
 #aboutmotionai,#aiandyou,#themotionaiexperience:hover{
@@ -231,6 +231,7 @@ body {
 
     .logobar {
         height: 50px;
+        margin-bottom:10px;
     }
     .promo{
         display:none;
@@ -249,9 +250,6 @@ body {
 
 }
 
-.platform-container img{
-    border-radius: 50%;
-}
 
 #platform-header{
     font-family: 'PT Sans', sans-serif;
