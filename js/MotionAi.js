@@ -32,7 +32,7 @@ $('.box').click(function() {
 
 $(document).ready(function() {
 
-    $('#showmenu').click(function() {
+    $('#vid-button').click(function() {
 
         $('.menu').slideToggle("fast");
 
