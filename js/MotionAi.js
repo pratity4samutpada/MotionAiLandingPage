@@ -13,24 +13,30 @@ $('.box').click(function() {
         }, 500);
 
     if ($(this).next().size() > 0) {
+
         $(this).next().animate({
         left:'50%'
         },500);
+
         }
 
     else {
+
         $(this).prevAll().last().animate({
         left: '50%'
         }, 500);
+
         }
 
 });
 
-
-
 $(document).ready(function() {
+
     $('#showmenu').click(function() {
+
         $('.menu').slideToggle("fast");
+
     });
+
 });
 
