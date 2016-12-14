@@ -133,11 +133,11 @@
     color:#337ab7;
 }
 
-.promo {
+.motionaipromo {
     height:470px;
     background-image:
+            linear-gradient(rgba(255,255,255, 0.9), rgba(255,255,255,0)),
             linear-gradient(rgba(255,255,255, 0), rgba(255,255,255,0.9)),
-            linear-gradient(rgba(255,255,255, 1), rgba(255,255,255,0)),
             url(../images/backgroundrobots.png);
     background-size:cover;
     background-repeat:no-repeat;
@@ -236,17 +236,17 @@
     color:#337ab7;
 }
 
-.productinfo{
+.motionaiproductinfo{
     text-align:center;
 }
 
-.headingone{
+.customheadingone{
     font-family:'Reem Kufi', sans-serif;
     font-size:30px;
     display:block;
 }
 
-.productinfo p{
+.motionaiproductinfo p{
     font-size:24px;
     font-family:'Reem Kufi', sans-serif;
 }
@@ -288,8 +288,6 @@
     .youandaiimagecontainer{
         margin:auto;
     }
-
-    .
 }
 
 .video-container{
@@ -303,6 +301,7 @@
     position:relative;
     top:90px;
     padding:5px;
+    margin:0px 40px;
     background-color:white;
     border:5px solid #31b0d5;
     border-radius:25px;
