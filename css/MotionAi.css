@@ -19,14 +19,14 @@
     position:relative;
 }
 
-.logocontainerone{
+.text-logo-container{
     height:60px;
     width:100%;
     position:absolute;
     z-index:1;
 }
 
-.logocontainerone > span{
+.text-logo-container > span{
     position:absolute;
     bottom:0;
     left:10px;
@@ -38,13 +38,13 @@
     letter-spacing:-1px;
 }
 
-.logocontainerone span span{
+.text-logo-container span span{
     font-weight:400;
     font-style:normal;
     opacity:0.8;
 }
 
-.logocontainertwo{
+.icon-logo-container{
     height:60px;
     width:100%;
     text-align:center;
@@ -52,7 +52,7 @@
     z-index:2;
 }
 
-.logocontainertwo img {
+.icon-logo-container img {
     height:60px;
     width:60px;
     padding-bottom:2px;
@@ -288,6 +288,8 @@
     .youandaiimagecontainer{
         margin:auto;
     }
+
+    .
 }
 
 .video-container{
@@ -321,6 +323,15 @@
 iframe {
     margin-top:33px;
     border:5px solid #31b0d5;
+}
+
+@media screen and (max-width:991px){
+    iframe{
+        width:100%;
+    }
+    .bio-blurb{
+        top:0;
+    }
 }
 
 .chatbot{
